@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <RootNamespace>Test_csharp</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AltV.Net" Version="10.0.2-rc" Condition="'$(Configuration)' == 'Release'" />
+        <PackageReference Include="AltV.Net.Async" Version="10.0.2-rc" Condition="'$(Configuration)' == 'Release'" />
+        <PackageReference Include="AltV.Net.CApi" Version="10.0.2-rc" Condition="'$(Configuration)' == 'Release'" />
+        <PackageReference Include="AltV.Net.Shared" Version="10.0.2-rc" Condition="'$(Configuration)' == 'Release'" />
+        <PackageReference Include="AltV.Net.Async.CodeGen" Version="10.0.2-rc">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('$(SolutionDir)\server\altv-server.exe')">
+        <Exec Command="xcopy &quot;$(OutDir)*&quot; &quot;$(SolutionDir)server\resources\test&quot; /Y&#xD;&#xA;&#xD;&#xA;" />
+    </Target>
+    
+    <ItemGroup>
+        <Reference Include="AltV.Net" Condition="'$(Configuration)' == 'Debug'">
+            <HintPath>AltV.Net.dll</HintPath>
+        </Reference>
+        <Reference Include="AltV.Net.CApi" Condition="'$(Configuration)' == 'Debug'">
+            <HintPath>AltV.Net.CApi.dll</HintPath>
+        </Reference>
+        <Reference Include="AltV.Net.Shared" Condition="'$(Configuration)' == 'Debug'">
+            <HintPath>AltV.Net.Shared.dll</HintPath>
+        </Reference>
+        <Reference Include="AltV.Net.Async" Condition="'$(Configuration)' == 'Debug'">
+            <HintPath>AltV.Net.Async.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>
