@@ -1,0 +1,17 @@
+B:\Code\altv-csharp-module-async-bug\Test-csharp\bin\Debug\net6.0\Test-csharp.deps.json
+B:\Code\altv-csharp-module-async-bug\Test-csharp\bin\Debug\net6.0\Test-csharp.dll
+B:\Code\altv-csharp-module-async-bug\Test-csharp\bin\Debug\net6.0\Test-csharp.pdb
+B:\Code\altv-csharp-module-async-bug\Test-csharp\bin\Debug\net6.0\AltV.Net.Async.dll
+B:\Code\altv-csharp-module-async-bug\Test-csharp\bin\Debug\net6.0\AltV.Net.CApi.dll
+B:\Code\altv-csharp-module-async-bug\Test-csharp\bin\Debug\net6.0\AltV.Net.dll
+B:\Code\altv-csharp-module-async-bug\Test-csharp\bin\Debug\net6.0\AltV.Net.Shared.dll
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\Test-csharp.csproj.AssemblyReference.cache
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\Test-csharp.GeneratedMSBuildEditorConfig.editorconfig
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\Test-csharp.AssemblyInfoInputs.cache
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\Test-csharp.AssemblyInfo.cs
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\Test-csharp.csproj.CoreCompileInputs.cache
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\Test-csharp.csproj.CopyComplete
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\Test-csharp.dll
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\refint\Test-csharp.dll
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\Test-csharp.pdb
+B:\Code\altv-csharp-module-async-bug\Test-csharp\obj\Debug\net6.0\ref\Test-csharp.dll

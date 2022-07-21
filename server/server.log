@@ -1,0 +1,16 @@
+[08:27:57] alt:V Server 11.4 (release)
+[08:27:57] Starting local dev server on 0.0.0.0:7788
+[08:27:57] Loading resource test
+[08:27:59] Loaded resource test
+[08:27:59] Loading resource chat
+[08:27:59] Loaded resource chat
+[08:27:59] Required server permissions:
+[08:27:59] Optional server permissions:
+[08:27:59] Starting HTTP server on 0.0.0.0:7788
+[08:27:59] Main thread started (ThreadId: 6604)
+[08:27:59] Colshape thread started (ThreadId: 33444)
+[08:27:59] EntityStreamer thread started (ThreadId: 34368)
+[08:27:59] Sync thread started (ThreadId: 22560)
+[08:27:59] Network thread started (ThreadId: 5304)
+[08:27:59] Console thread started (ThreadId: 12096)
+[08:27:59][Warning] Server started in debug mode

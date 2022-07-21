@@ -1,11 +1,11 @@
 ﻿Param(
-    [string]$Branch = "rc"
+    [string]$Branch = "release"
 )
 
 $flickrImages = "https://cdn.altv.mp/server/$BRANCH/x64_win32/altv-server.exe",
-"https://cdn.altv.mp/server/dev/x64_win32/data/vehmodels.bin",
-"https://cdn.altv.mp/server/dev/x64_win32/data/vehmods.bin",
-"https://cdn.altv.mp/server/dev/x64_win32/data/clothes.bin",
+"https://cdn.altv.mp/data/$BRANCH/data/vehmodels.bin",
+"https://cdn.altv.mp/data/$BRANCH/data/vehmods.bin",
+"https://cdn.altv.mp/data/$BRANCH/data/clothes.bin",
 "https://cdn.altv.mp/coreclr-module/$BRANCH/x64_win32/AltV.Net.Host.dll",
 "https://cdn.altv.mp/coreclr-module/$BRANCH/x64_win32/modules/csharp-module.dll",
 "https://cdn.altv.mp/js-module/$BRANCH/x64_win32/modules/js-module/libnode.dll",

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3JQhFZJJyBQnHzkq5HqWCZJvI7HxM+ckaWKEw+pWsab8/NPu8XWI8LQU4jmdJXtQNg7fMmJh/HIAg7zIoZxSOw==",
+  "success": true,
+  "projectFilePath": "B:\\Code\\altv-csharp-module-async-bug\\Test-csharp\\Test-csharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Till\\.nuget\\packages\\altv.net\\11.0.0\\altv.net.11.0.0.nupkg.sha512",
+    "C:\\Users\\Till\\.nuget\\packages\\altv.net.async\\11.0.0\\altv.net.async.11.0.0.nupkg.sha512",
+    "C:\\Users\\Till\\.nuget\\packages\\altv.net.capi\\11.0.0\\altv.net.capi.11.0.0.nupkg.sha512",
+    "C:\\Users\\Till\\.nuget\\packages\\altv.net.shared\\11.0.0\\altv.net.shared.11.0.0.nupkg.sha512",
+    "C:\\Users\\Till\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
